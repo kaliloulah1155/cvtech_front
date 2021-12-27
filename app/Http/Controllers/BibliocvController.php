@@ -209,7 +209,6 @@ class BibliocvController extends Controller
        ///format data
         $data=$this->format_data($biblio);
 
-
         return response()->json([
                 'status'=>200,
                 'lenght'=>count($biblio),
