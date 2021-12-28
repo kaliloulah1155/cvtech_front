@@ -133,6 +133,9 @@ class BibliocvController extends Controller
         $poste_conv=$request->poste_conv;
 
 
+   //   dd($request->all());
+
+
         if($request->search >0){
             $biblio=NULL;
              
