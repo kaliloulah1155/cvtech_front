@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Creation de cv</title>
 
     <link rel="stylesheet" href="./models/styles/css-5.1.3/bootstrap.css">
     <link rel="stylesheet" href="./models/styles/style.css">
@@ -91,8 +91,30 @@
                                     <select name="pos_conv" class="form-control" required="true">
                                         <option value="" disabled selected>S&eacute;lectionner votre demande</option>
                                         <option value="Analyste programmeur">Analyste programmeur</option>
+                                        <option value="Business Developer">Business Developer</option>
                                         <option value="Chef produit">Chef produit</option>
                                         <option value="Chef projet">Chef projet</option>
+                                        <option value="Comptable">Comptable</option>
+                                        <option value="Controleur de gestion">Controleur de gestion</option>
+                                        <option value="Ingenieur support et maintenance">Ingenieur support et maintenance</option>
+                                        <option value="Ingenieur SI">Ingenieur SI</option>
+                                         <option value="Kitting and Tool">Kitting and Tool</option>
+                                         <option value="Manager RH">Manager RH</option>
+
+                                         <option value="Responsable Moyen Généraux">Responsable Moyen Généraux</option>
+                                          <option value="Senior Manager Achats">Senior Manager Achats</option>
+                                         <option value="Senior Manager Admin">Senior Manager Admin</option>
+                                        <option value="Senior Manager DTI">Senior Manager DTI</option>
+                                        <option value="Senior Manager Finance">Senior Manager Finance</option>
+                                        <option value="Senior Manager Projet">Senior Manager Projet</option>
+                                        <option value="Technicien de surface">Technicien de surface</option>
+                                        <option value="Team lead recherche et developpement">Team lead recherche et developpement</option>
+                                        <option value="Team lead support et maintenance">Team lead support et maintenance</option>
+                                        <option value="Team lead SI">Team lead SI</option>
+                                        <option value="Tresorier">Tresorier</option>
+                                        <option value="UX Designer">UX Designer</option>
+                                        <option value="Web Designer">Web Designer</option>
+                                        
                                     </select>
                                 </div>
     

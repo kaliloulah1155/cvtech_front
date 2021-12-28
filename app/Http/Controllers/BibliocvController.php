@@ -198,7 +198,6 @@ class BibliocvController extends Controller
         
         }else{
             $request['search']=0;
-           
         }
 
  
