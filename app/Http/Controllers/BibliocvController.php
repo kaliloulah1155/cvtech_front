@@ -11,8 +11,6 @@ use Carbon\Carbon;
 class BibliocvController extends Controller
 {
     public function store(Request $request){
-
-       // dd($request->all());
         $validator = Validator::make($request->all(), [ 
             'nom' => 'required', 
             'prenoms' => 'required', 

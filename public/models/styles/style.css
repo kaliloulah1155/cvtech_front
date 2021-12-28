@@ -1,0 +1,264 @@
+/* le style de tout les temps ! */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+span.text:after {
+    content: "*";
+    color: red;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: #e0e0e0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header > div{
+    width: 100%;
+    margin: 25px auto;
+    border: 2px solid;
+}
+
+
+.title{
+    position: absolute;
+    font-family: 'Niconne';
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-top: -23px;
+    margin-left: 15px;
+    margin-bottom: 17px;
+    background-color: #e0e0e0;
+    z-index: 1;
+}
+
+.title > span{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 3;
+    text-transform: uppercase;
+}
+
+label{
+    font-size: 11px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-text{
+    width: 95%;
+    margin: 30px auto 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titl > .span_left{
+    position: absolute;
+    font-family: 'Niconne';
+    width: 70px;
+    height: 30px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1;
+    font-size: 17px;
+    margin-top: -23px;
+    margin-left: 30px;
+    padding-left: 5px;
+    background-color: #e0e0e0;
+    z-index: 1;
+}
+
+.titl > .span_right{
+    position: absolute;
+    font-family: 'Niconne';
+    width: 107px;
+    height: 30px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1;
+    font-size: 17px;
+    margin-top: -23px;
+    margin-left: 30px;
+    padding-left: 5px;
+    background-color: #e0e0e0;
+    z-index: 1;
+}
+
+.form-control:focus-visible{
+    border: 1px solid red;
+}
+
+input, select{
+    height: 30px;
+    font-size: 10.5px;
+    border-radius: none;
+}
+
+.id_btn{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.rba_content  nav{
+    margin-bottom: 30px;
+}
+
+.btn{
+    position: relative;
+    width: 100px;
+    border: 1px solid;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+
+.btn::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -50%;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, .3), transparent);
+    transition: all 650ms;
+}
+
+.btn:hover::before{
+    left: 50%;
+}
+
+.btn_left{
+    margin-right: 50px;
+}
+
+
+.btn_right{
+    margin-left: 50px;
+}
+
+button{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin: 22px 20px 0px;
+    cursor: pointer;
+}
+
+button:hover{
+   background: rgb(245, 232, 207); 
+}
+
+/* */
+
+@media (min-width: 768px){
+
+    .title{
+        width: 330px;
+    }
+
+    .title > span{
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 2;
+        text-transform: uppercase;
+    }
+
+    .content-text{
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .titl > .span_left{
+        width: 70px;
+        font-weight: 600;
+    }
+    
+    .titl > .span_right{
+        width: 107px;
+        font-weight: 600;
+    }
+
+    .rba_content nav{
+        height: 285px;
+    }
+
+    input, select{
+        height: 32px;
+        font-size: 11px;
+    }
+
+    .btn{
+        width: 120px;
+        margin-bottom: 20px;
+        padding: 5px !important;
+    }
+    
+}
+
+
+
+@media (min-width: 992px){
+
+    header{
+        height: 100vh;
+    }
+
+    header > div{
+        margin: 35px auto;
+    }
+
+    .title{
+        width: 330px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: -23px;
+        margin-left: 30px;
+    }
+
+    .title > span{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .content-text{
+        width: 70%;
+    }
+
+    .rba_content  nav{
+        height: 300px;
+        margin-bottom: initial;
+    }
+
+    input, select{
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .btn{
+        width: 120px;
+        margin-top: 15px;
+    }
+
+    .btn_left{
+        margin-right: 50px;
+    }
+    
+    .btn_right{
+        margin-left: 50px;
+    }
+    
+}
+
+
