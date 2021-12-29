@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <br/>
-                <a href="{{route('cvsearch')}}">Retour à la liste</a> <br/><br/>
+                <a href="{{route('cvsearch')}}">Rafraichir la liste</a> <br/><br/>
                 <table id="min-data" class="test table" width="100%">
                     <thead class="table-sm table-hover text-white" style="background: #4a67b3;">
                         <tr>
@@ -151,7 +151,6 @@
 
      	//chargement de la liste 
      	function ajaxListecv() {
-		   
 		    $.ajax({
 		        url: "{{route('listsearch')}}",
 		        type: "POST",
