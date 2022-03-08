@@ -25,10 +25,10 @@
                 </nav>
     
                 <section class="content-text">
-                    Vous ête à la recherche d'un stage ? Vous soihaitez proposer votre candidature spontanée ? Ou bien postuler à une offre d'emploi ?
-                    <br><strong>NGSER</strong> propose régulièrement des postes à pourvoir au sien des ses services (assistant(e), technicien(ne), etc ... )
+                    Vous êtes à la recherche d'un stage ? Vous souhaitez proposer votre candidature spontanée ? Ou bien postuler à une offre d'emploi ?
+                    <br><strong>NGSER</strong> propose régulièrement des postes à pourvoir au sein de ses services (assistant(e), technicien (ne), etc.).
     
-                    <p>Nous vous remercions de bien vouloir candidater via le formulaire de candidature ci-dessous!</p>
+                    <p>Nous vous remercions de bien vouloir postuler via le formulaire de candidature ci-dessous!</p>
                 </section> 
     
                 <div class="row mt-5">
